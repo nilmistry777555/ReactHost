@@ -10,7 +10,9 @@ ReactDOM.render(
         <Switch>
             <Route path='/' render={props => <App {...props} />} exact>
             </Route>
-            <Route path='/' render={props => <App {...props} />} exact>
+            <Route path='/app' render={props => <App {...props} />} exact>
+            </Route>
+            <Route path='/app1' render={props => <App {...props} />} exact>
             </Route>
         </Switch>
     </BrowserRouter>,
